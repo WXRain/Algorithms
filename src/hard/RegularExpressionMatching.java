@@ -32,32 +32,31 @@ isMatch("aab", "c*a*b") → true
 
 public class RegularExpressionMatching {
 	public static boolean isMatch(String s, String p) {
-		if(s.equals(p)) return true;
-        int i = 0, j = 0, x = 0;
-        for(i = 0; i < s.length(); i++){
-        		char a = s.charAt(i);
-        		if(j >= p.length()) return false;
-        		char b = p.charAt(j);
-        		if(a == b) j++;
-        		else if(b == '.') j++;
-        		else if(b == '*'){
-        			if(a == p.charAt(x) || p.charAt(x) == '.') ;
-        			else if(j + 1 < p.length() && (a == p.charAt(j + 1) || p.charAt(j+1) == '.')) j += 2;
-        			else return false;
-        		}else if(j + 2 < p.length() && p.charAt(j+1) == '*' && a == p.charAt(j+2)){
-        			j += 3;
-        		}else{
-        			return false;
-        		}
-        		
-        		x = j - 1;
-        }
-        if(j < p.length()) return false;
-        return true;
+		return check(s, p, s.length()-1, p.length()-1);
     }
-	
+	public static boolean check(String s, String p, int i, int j){
+		if(i == -1 && j == -1) return true;
+		if(i != -1 && j == -1) return false;
+		if(i == -1 && j != -1){
+			if(p.charAt(j) == '*'){
+				return check(s, p, i, j-2);
+			}else return false;
+		}else{
+			if(s.charAt(i) == p.charAt(j) || p.charAt(j) == '.') return check(s,p,i-1,j-1);
+			else if(p.charAt(j) == '*'){
+				if(p.charAt(j-1) == s.charAt(i) || p.charAt(j-1) == '.') return check(s,p,i-1,j) || check(s,p,i,j-2);
+				else return check(s,p,i,j-2);
+			}else return false;
+		}
+	}
 	public static void main(String[] args) {
+		System.out.println(isMatch("aa", "a"));
+		System.out.println(isMatch("aa", "aa"));
+		System.out.println(isMatch("aaa","aa"));
 		System.out.println(isMatch("aa", "a*"));
+		System.out.println(isMatch("aa", ".*"));
+		System.out.println(isMatch("ab", ".*"));
+		System.out.println(isMatch("aab", "c*a*b"));
 	}
 }
 
