@@ -59,4 +59,16 @@ public class Utils {
 		}
 		return result;
 	}
+	
+	public static void printIntArray(int[] array){
+		if(array == null || array.length == 0) System.out.print("[]");
+		System.out.print("[");
+		System.out.print(array[0]);
+		for(int i = 1; i < array.length; i++){
+			System.out.print("," + array[i]);
+		}
+		System.out.print("]");
+	}
+	
+	
 }
