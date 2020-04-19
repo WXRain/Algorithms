@@ -14,7 +14,7 @@ public class Utils {
 	 * TODO 打印一元List数组
 	 * @param list
 	 */
-	public static void printList(List<Integer> list){
+	public static void printList(List list){
 		if(list == null || list.size() == 0) {
 			System.out.print("[]");
 			return;
@@ -26,6 +26,7 @@ public class Utils {
 		}
 		System.out.print("]");
 	}
+	
 	/**
 	 * TODO 打印二元List数组
 	 * @param list
@@ -59,7 +60,10 @@ public class Utils {
 		}
 		return result;
 	}
-	
+	/**
+	 * TODO 打印整数类型数组
+	 * @param array 将要打印的整型数组
+	 */
 	public static void printIntArray(int[] array){
 		if(array == null || array.length == 0) System.out.print("[]");
 		System.out.print("[");
