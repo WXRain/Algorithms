@@ -13,7 +13,7 @@ import java.util.Set;
 import util.Utils;
 
 /**
- * @author wangxinyu
+ * @author rain
  *
  */
 public class Sum3 {

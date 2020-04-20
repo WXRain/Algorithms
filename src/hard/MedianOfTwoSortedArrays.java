@@ -4,7 +4,7 @@
 package hard;
 
 /**
- * @author wangxinyu
+ * @author rain
  *
  */
 public class MedianOfTwoSortedArrays {

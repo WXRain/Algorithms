@@ -4,7 +4,7 @@
 package medium;
 
 /**
- * @author wangxinyu
+ * @author rain
  *
  */
 public class ContainerWithMostWater {

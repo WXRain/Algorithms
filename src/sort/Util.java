@@ -4,7 +4,7 @@
 package sort;
 
 /**
- * @author wangxinyu
+ * @author rain
  *
  */
 public class Util {

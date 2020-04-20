@@ -4,7 +4,7 @@
 package easy;
 
 /**
- * @author wangxinyu
+ * @author rain
  *
  */
 public class SameTree {

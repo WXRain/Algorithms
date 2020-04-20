@@ -4,7 +4,7 @@
 package medium;
 
 /**
- * @author wangxinyu
+ * @author rain
  * 1. 对于负数的考虑　
  *
  */

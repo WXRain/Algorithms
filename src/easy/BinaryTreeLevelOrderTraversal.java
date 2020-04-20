@@ -11,7 +11,7 @@ import java.util.Stack;
 import easy.MaxDepthOfBinaryTree.TreeNode;
 
 /**
- * @author wangxinyu
+ * @author rain
  *
  */
 public class BinaryTreeLevelOrderTraversal {

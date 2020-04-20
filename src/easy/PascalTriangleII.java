@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author wangxinyu
+ * @author rain
  *
  */
 public class PascalTriangleII {

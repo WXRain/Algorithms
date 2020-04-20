@@ -4,7 +4,7 @@
 package sort;
 
 /**
- * @author wangxinyu
+ * @author rain
  * 插入排序
  * 平均时间复杂度：O(n^2)
  * 最佳情况：O(n)

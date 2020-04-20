@@ -6,7 +6,7 @@ package util;
 import java.util.List;
 
 /**
- * @author wangxinyu
+ * @author rain
  *
  */
 public class Utils {

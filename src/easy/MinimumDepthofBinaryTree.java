@@ -6,7 +6,7 @@ package easy;
 import easy.MaxDepthOfBinaryTree.TreeNode;
 
 /**
- * @author wangxinyu
+ * @author rain
  *
  */
 public class MinimumDepthofBinaryTree {

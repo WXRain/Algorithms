@@ -6,7 +6,7 @@ package medium;
 import java.util.Arrays;
 
 /**
- * @author wangxinyu
+ * @author rain
  *
  */
 

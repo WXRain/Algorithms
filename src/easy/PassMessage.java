@@ -4,7 +4,7 @@
 package easy;
 
 /**
- * @author wangxinyu
+ * @author rain
 小朋友 A 在和 ta 的小伙伴们玩传信息游戏，游戏规则如下：
 
 有 n 名玩家，所有玩家编号分别为 0 ～ n-1，其中小朋友 A 的编号为 0

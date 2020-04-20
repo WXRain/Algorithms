@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @author wangxinyu
+ * @author rain
  *
  */
 public class SymmetricTree {
