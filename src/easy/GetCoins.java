@@ -27,10 +27,6 @@ import util.Utils;
 
 1 <= n <= 4
 1 <= coins[i] <= 10
-
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/na-ying-bi
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  *
  */
 public class GetCoins {
