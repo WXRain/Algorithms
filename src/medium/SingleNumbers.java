@@ -35,4 +35,13 @@ public class SingleNumbers {
 		}
 		return new int[]{a, b};
     }
+	/* 这个神一样的答案可以参考
+	 * class Solution:
+    		def isValid(self, s):
+        while '{}' in s or '()' in s or '[]' in s:
+            s = s.replace('{}', '')
+            s = s.replace('[]', '')
+            s = s.replace('()', '')
+        return s == ''
+	 */
 }
