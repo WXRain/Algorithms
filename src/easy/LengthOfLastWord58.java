@@ -7,7 +7,7 @@ package easy;
  * @author rain
  *
  */
-public class LengthOfLastWord {
+public class LengthOfLastWord58{
 	public static int lengthOfLastWord(String s) {
 		int i = s.length()-1;
         while (i >= 0 && s.charAt(i)==' ')
