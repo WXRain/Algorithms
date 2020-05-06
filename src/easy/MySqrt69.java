@@ -7,7 +7,7 @@ package easy;
  * @author rain
  *
  */
-public class Sqrt {
+public class MySqrt69 {
 	public static int mySqrt(int x) {
 		if(x==0) return 0;
 		if(x == 4) return 2;

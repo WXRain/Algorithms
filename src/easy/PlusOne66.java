@@ -7,7 +7,7 @@ package easy;
  * @author rain
  *
  */
-public class PlusOne {
+public class PlusOne66 {
 	public static int[] plusOne(int[] digits) {
 		digits[digits.length - 1] = digits[digits.length - 1] + 1;
 		int[] result = new int [digits.length + 1];

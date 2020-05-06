@@ -7,7 +7,7 @@ package easy;
  * @author rain
  *
  */
-public class ClimbStairs {
+public class ClimbStairs70 {
 	public static int climbStairs(int n) {
 		int num1 = 1, num2 = 2;
         if(n == 1) return 1;

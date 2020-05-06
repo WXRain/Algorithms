@@ -7,7 +7,7 @@ package easy;
  * @author rain
  *
  */
-public class AddBinary {
+public class AddBinary67 {
 	public static String addBinary(String a, String b) {
 		if(a.equals("0")) return b;
 		if(b == "0") return a;
