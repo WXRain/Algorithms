@@ -7,7 +7,7 @@ package easy;
  * @author rain
  *
  */
-public class SameTree {
+public class SameTree100 {
 	class TreeNode {
 	    int val;
 	    TreeNode left;

@@ -7,7 +7,7 @@ package easy;
  * @author rain
  *
  */
-public class MergeSortedArray {
+public class MergeSortedArray88 {
 	/**
 	 * 
 	 * @param nums1  第一个数组

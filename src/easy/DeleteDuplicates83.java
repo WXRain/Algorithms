@@ -15,7 +15,7 @@ package easy;
  *     ListNode(int x) { val = x; }
  * }
  */
-public class DeleteDuplicates {
+public class DeleteDuplicates83 {
 	static class ListNode {
 	      int val;
 	      ListNode next;

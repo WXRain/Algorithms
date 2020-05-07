@@ -1,6 +1,6 @@
 package easy;
 
-import easy.DeleteDuplicates.ListNode;
+import easy.DeleteDuplicates83.ListNode;
 /**
  * 
  *@author rain

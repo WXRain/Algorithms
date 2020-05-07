@@ -10,7 +10,7 @@ import java.util.Queue;
  * @author rain
  *
  */
-public class SymmetricTree {
+public class SymmetricTree101 {
 	class TreeNode {
 		      int val;
 		      TreeNode left;
