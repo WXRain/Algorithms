@@ -3,7 +3,7 @@
  */
 package easy;
 
-import easy.MaxDepthOfBinaryTree.TreeNode;
+import easy.MaxDepthOfBinaryTree104.TreeNode;
 
 /**
  * @author rain

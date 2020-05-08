@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Stack;
 
-import easy.MaxDepthOfBinaryTree.TreeNode;
+import easy.MaxDepthOfBinaryTree104.TreeNode;
 
 /**
  * @author rain

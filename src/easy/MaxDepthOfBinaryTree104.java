@@ -7,7 +7,7 @@ package easy;
  * @author rain
  *
  */
-public class MaxDepthOfBinaryTree {
+public class MaxDepthOfBinaryTree104 {
 	static class TreeNode {
 	      int val;
 	      TreeNode left;
