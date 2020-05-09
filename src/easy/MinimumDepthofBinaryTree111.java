@@ -9,7 +9,7 @@ import easy.MaxDepthOfBinaryTree104.TreeNode;
  * @author rain
  *
  */
-public class MinimumDepthofBinaryTree {
+public class MinimumDepthofBinaryTree111 {
 	public int minDepth(TreeNode root) {
 		if(root == null) return 0;
 		else return depth(root);

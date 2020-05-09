@@ -9,7 +9,7 @@ import easy.MaxDepthOfBinaryTree104.TreeNode;
  * @author rain
  *
  */
-public class PathSum {
+public class PathSum112 {
 	public boolean hasPathSum(TreeNode root, int sum) {
 		if(root == null) return false;
 		int mid = root.val;

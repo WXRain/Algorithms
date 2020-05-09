@@ -9,7 +9,7 @@ import easy.MaxDepthOfBinaryTree104.TreeNode;
  * @author rain
  *
  */
-public class ConvertSortedArraytoBinarySearchTree {
+public class ConvertSortedArraytoBinarySearchTree108 {
 	public static TreeNode sortedArrayToBST(int[] nums) {
 		if(nums.length == 0) return null;
 		return transfer(0, nums.length-1, nums);

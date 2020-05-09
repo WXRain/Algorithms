@@ -9,7 +9,7 @@ import easy.MaxDepthOfBinaryTree104.TreeNode;
  * @author rain
  *
  */
-public class BalancedBinaryTree {
+public class BalancedBinaryTree110 {
 	public boolean isBalanced(TreeNode root) {
         if(root == null) return true;
         if(Math.abs(depth(root.left) - depth(root.right)) <= 1) {
