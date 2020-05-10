@@ -10,7 +10,7 @@ import java.util.List;
  * @author rain
  *
  */
-public class PascalTriangleII {
+public class PascalTriangleII119 {
 	public List<Integer> getRow(int rowIndex) {
 		List<List<Integer>> list = new LinkedList<List<Integer>>();
 		List<Integer> l = new LinkedList<Integer>();

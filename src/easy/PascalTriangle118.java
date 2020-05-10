@@ -10,7 +10,7 @@ import java.util.List;
  * @author rain
  *
  */
-public class PascalTriangle {
+public class PascalTriangle118 {
 	public List<List<Integer>> generate(int numRows) {
 		if(numRows == 0) return new LinkedList<List<Integer>>();
         List<List<Integer>> result = new LinkedList<List<Integer>>();

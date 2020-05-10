@@ -46,7 +46,7 @@ Constraints:
  * 如果两天之间是递减的，则并不计算在内
  *
  */
-public class BestTimetoBuyandSellStockII {
+public class BestTimetoBuyandSellStockII122 {
 	public static int maxProfit(int[] prices) {
 		int slow = 0;
         int  fast= 1;
