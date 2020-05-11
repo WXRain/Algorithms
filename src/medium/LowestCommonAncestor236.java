@@ -40,7 +40,7 @@ public class LowestCommonAncestor236 {
         //分别在root的左右子树寻找公共节点
         TreeNode left = lowestCommonAncestor(root.left, p, q);
         TreeNode right = lowestCommonAncestor(root.right, p, q);
-        if (left != null && right != null) {//如果左右均不存在，则root就是
+        if (left != null && right != null) {//如果左右均存在，则root就是
             return root;
         } else if (left != null) {//如果左边存在，则反回左边
             return left;
