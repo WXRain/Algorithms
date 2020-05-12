@@ -25,7 +25,7 @@ Input: [4,1,2,1,2]
 Output: 4
  *
  */
-public class SingleNumber {
+public class SingleNumber136 {
 	public static int singleNumber(int[] nums) {
 //		if(nums.length == 1) return nums[0];
 //        Arrays.sort(nums);

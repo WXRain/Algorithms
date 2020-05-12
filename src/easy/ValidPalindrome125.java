@@ -19,7 +19,7 @@ Input: "race a car"
 Output: false
  *
  */
-public class ValidPalindrome {
+public class ValidPalindrome125 {
 	public static boolean isPalindrome(String s) {
 		if(s == null || s.length() == 0 ) return true;
         s = s.toLowerCase();
