@@ -28,6 +28,7 @@ Output: "bb"
 public class LongestPalindromicSubstring {
 	
 	public static String longestPalindrome(String s){
+		if(s == null || s.length() == 0) return "";
 		//保存当前最大长度的回文字符串起始位置和结束位置
 		int end = 0, start = 0;
 		for(int i = 0; i < s.length(); i++){
