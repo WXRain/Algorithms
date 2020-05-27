@@ -74,5 +74,22 @@ public class Utils {
 		System.out.print("]");
 	}
 	
+	/**
+	 * TODO 打印数组的子数组
+	 * @param array
+	 * @param start 起始位置
+	 * @param end   终止位置
+	 */
+	public static void printIntArray(int[] array, int start, int end){
+		if(array == null || array.length == 0) System.out.print("[]");
+		if(start < 0 || end > array.length || start > end) System.out.println("error");
+		System.out.print("[");
+		System.out.print(array[start]);
+		for(int i = start + 1; i < end; i++){
+			System.out.print("," + array[i]);
+		}
+		System.out.print("]");
+	}
+	
 	
 }
