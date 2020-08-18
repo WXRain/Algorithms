@@ -26,6 +26,7 @@ public class RightSideView {
 	    int val;
 	    TreeNode left;
 	    TreeNode right;
+	    TreeNode(){}
 	    TreeNode(int x) { val = x; }
 	}
     public List<Integer> rightSideView(TreeNode root) {
