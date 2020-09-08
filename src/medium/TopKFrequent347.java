@@ -44,7 +44,7 @@ public class TopKFrequent347 {
 
         //桶排序
         //将频率作为数组下标，对于出现频率不同的数字集合，存入对应的数组下标
-        List<Integer>[] list = new List[nums.length + 1];
+        List[] list = new List[nums.length + 1];
         for (int key : map.keySet()) {
             // 获取出现的次数作为下标
             int i = map.get(key);
