@@ -12,8 +12,9 @@ package medium;
 class ListNode {
       int val;
       ListNode next;
-	ListNode() {}
+      ListNode() {}
       ListNode(int x) { val = x; }
+      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
   }
  
 public class RemoveNthFromEnd {
