@@ -1,7 +1,5 @@
 package challenge2;
 
-import com.sun.tools.jdi.IntegerValueImpl;
-
 import java.util.List;
 
 public class Third {
