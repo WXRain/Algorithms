@@ -18,14 +18,14 @@ package easy;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 public class GetKthFromEnd_lcof22 {
-    private class ListNode {
-        int val;
+    private class ListNode<K> {
+        K val;
         ListNode next;
 
         ListNode() {
         }
 
-        ListNode(int val) {
+        ListNode(K val) {
             this.val = val;
         }
     }
