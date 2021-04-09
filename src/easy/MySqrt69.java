@@ -9,16 +9,26 @@ package easy;
  */
 public class MySqrt69 {
 	public static int mySqrt(int x) {
-		if(x==0) return 0;
-		if(x == 4) return 2;
-		int i = 1;
-        for(i = 1; i <= x/2+1; i++){
-        		if((long)(i-1)*(i-1) <= x && (long)i*i>x) return i-1;
-        }
-        return 1;
+		if(x == 0) return 0;
+		if(x == 1) return 1;
+		int left = 0, right = x;
+		int ans = -1;
+		while(left <= right){
+			int mid = (left + right) / 2;
+			if(mid * mid == x){
+				return mid;
+			}
+			if((long)mid * mid < x){
+				ans = mid;
+				left = mid + 1;
+			}else{
+				right = mid - 1;
+			}
+		}
+		return ans;
     }
 	public static void main(String[] args) {
-		System.out.println(mySqrt(25));
+		System.out.println(mySqrt(2147483647));
 		//int i = 46341;
 		//System.out.println((long)i*i > 2147395600);
 	}
