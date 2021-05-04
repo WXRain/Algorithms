@@ -23,7 +23,7 @@ import java.util.Map;
  * 1 <= nums.length <= 3 * 104
  * -231 <= nums[i] <= 231 - 1
  * nums 中，除某个元素仅出现 一次 外，其余每个元素都恰出现 三次
- *
+ *2
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/single-number-ii
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
